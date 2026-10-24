@@ -1,4 +1,4 @@
-* {
+body {
   background-color: #ff8000;
 }
 
@@ -6,8 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  margin: 10px;
+  margin: 30px;
 }
 
 .username {
@@ -21,4 +20,35 @@
   align-items: center;
   justify-content: center;
   margin: 10px;
+}
+
+.sign-up {
+  grid-area: signup;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.lupa-password {
+  grid-area: lupaPassword;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.daftar-lupaPassword {
+  display: grid;
+  grid-template-areas:
+    "signup lupaPassword"
+    "signup lupaPassword";
+  grid-template-columns: 0.5fr 0.5fr;
+  padding: 0 110px;
 }
