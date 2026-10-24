@@ -1,0 +1,24 @@
+* {
+  background-color: #ff8000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
