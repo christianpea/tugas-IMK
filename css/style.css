@@ -2,6 +2,7 @@ body {
   background-color: #ff8000;
 }
 
+/* awal style login.html */
 .logo {
   display: flex;
   align-items: center;
@@ -52,3 +53,32 @@ body {
   grid-template-columns: 0.5fr 0.5fr;
   padding: 0 110px;
 }
+/* akhir style login.html */
+
+/* awal style pilih-dosen.html */
+.card-container {
+  display: grid;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  width: 100px;
+  height: 200px;
+  font-size: small;
+  font-weight: 100;
+  background-color: #fff;
+}
+
+.dosen1 {
+  grid-area: dosen1;
+}
+
+.dosen2 {
+  grid-area: dosen2;
+}
+
+/* akhir style pilih-dosen.html */
